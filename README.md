@@ -35,13 +35,6 @@ A* Search Algorithm
 </li>
 </ol>
 
-<hr>
-<h2>Sample Graph I</h2>
-<hr>
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
-
-<hr>
 <h2>PROGRAM :</h2>
 <pre><code>
 from collections import defaultdict
@@ -117,6 +110,15 @@ aStarAlgo(start, goal)
 </code></pre>
 
 <img src="Screenshot 2025-03-25 140653.png" alt="prog.jpg">
+
+
+<hr>
+<h2>Sample Graph I</h2>
+<hr>
+
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
+
+<hr>
 
 <h2>Sample Input</h2>
 <hr>
