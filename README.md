@@ -36,7 +36,7 @@ A* Search Algorithm
 </ol>
 
 <h2>PROGRAM :</h2>
-<pre><code>
+```python
 from collections import defaultdict
 H_dist ={}
 
@@ -107,7 +107,7 @@ Graph_nodes=graph
 start=input()
 goal=input()
 aStarAlgo(start, goal)
-</code></pre>
+```
 
 <img src="Screenshot 2025-03-25 140653.png" alt="prog.jpg">
 
