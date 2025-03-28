@@ -36,10 +36,9 @@ A* Search Algorithm
 </ol>
 
 <h2>PROGRAM :</h2>
-```python
+<pre><code>
 from collections import defaultdict
 H_dist ={}
-
 def aStarAlgo(start_node, stop_node):
     open_set = set(start_node)
     closed_set = set()
@@ -83,7 +82,6 @@ def aStarAlgo(start_node, stop_node):
         closed_set.add(n)
     print('Path does not exist!')
     return None
-
 def get_neighbors(v):
     if v in Graph_nodes:
         return Graph_nodes[v]
@@ -102,12 +100,11 @@ for i in range(e):
 for i in range(n):
     node,h=map(str,input().split())
     H_dist[node]=int(h)
-
 Graph_nodes=graph
 start=input()
 goal=input()
 aStarAlgo(start, goal)
-```
+</code></pre>
 
 <img src="Screenshot 2025-03-25 140653.png" alt="prog.jpg">
 
